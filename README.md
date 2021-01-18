@@ -7,9 +7,9 @@ Deep learning is an extremely popular method today and has had its effect in eve
 
 In this project, we have trained 2 models that tries to calculate class probabilities with different approaches. Naive Bayes is a generative model which tries to calculate the class probability of agiven instance using the existing distributions of features. This model basically learns the class probabilities by calculating them using Bayes Theorem.
 
-```math
+$`
 P(class | data) = \frac {P(data | class)xP(class)}  {P(data)}
-```
+`$
 
 P(data) is evidence which is neglected in calculations.
 
