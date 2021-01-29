@@ -77,7 +77,7 @@ It tries to extract weights from the input, combining them linearly with taking 
 
 Initially, we come across a problem in above equation since we are getting values from -inf to inf which are not acceptable probabilities. We solve this problem by modifying the right hand side such that it maps the results in a space of results ranging from 0-to-1.
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;\sigma(w^T x + b)=\frac{1}{1 + e^{-(w^T x + b)}}" />
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;\sigma(w^Tx+b)=\frac{1}{1+e^{-(w^Tx+b)}}" />
 
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;P(class|data)=\dfrac{exp(\sum_{i=1}^Nw_if_i)}{\sum_{C}exp(\sum_{i=1}^Nw_if_i)}" />
 
